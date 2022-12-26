@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://l5ve8il27q48"]
+
+[ext_resource type="Script" path="res://Examples/randomness.gd" id="1_af7pe"]
+
+[node name="example" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_af7pe")
