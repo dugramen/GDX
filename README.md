@@ -32,7 +32,8 @@ func check_list(props, state := { # State variables declared in here
 			[Button, {
 				text = 'Add Task',
 				custom_minimum_size = Vector2(200, 0),
-				size_flags_vertical = SIZE_FILL if state.items.size() > 0 else SIZE_EXPAND + SIZE_SHRINK_CENTER,
+				size_flags_vertical = SIZE_FILL if state.items.size() > 0 \
+					else SIZE_EXPAND + SIZE_SHRINK_CENTER,
 				mouse_default_cursor_shape = CURSOR_POINTING_HAND,
 				# Signals can be connected as normal props by setting the value to a Callable
 				pressed = func():
